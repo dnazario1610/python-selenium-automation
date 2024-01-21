@@ -2,6 +2,6 @@ Feature: Test Scenarios for Search functionality
 
   Scenario: User can search for a product
     Given Open Google page
-    When Input Table into search field
+    When Input Car Table into search field
     And Click on search icon
-    Then Product resu lts for Table are shown
+    Then Verify search result is correct

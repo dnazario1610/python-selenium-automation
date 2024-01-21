@@ -1,7 +1,6 @@
-Feature: Test Scenarios for Search functionality
+Feature: Tests for amazon search
 
-  Scenario: User can search for a product
-    Given Open Google page
-    When Input Car Table into search field
-    And Click on search icon
-    Then Product results for Table are shown
+  Scenario: Verify that a user can search for a table
+    Given Open Amazon page
+    When Search for table
+    Then Verify search result is correct
